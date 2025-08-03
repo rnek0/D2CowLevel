@@ -1,8 +1,6 @@
 'Alarme par Tony Simoes.
 'Vendredi 24 août 2007
 
-Imports System.IO
-
 ''' <summary>
 ''' Alarme paramétrée 
 ''' </summary>
@@ -87,22 +85,8 @@ Public Class Form1
     End Function
 
     Sub PlaySoundFile()
-        ' Check l'existence du fichier de son dans le repertoire de l'app (required)
-        Try
-            Dim filePath As String = getRepertoireAppli() & "\" & My.Settings.Item("musiqueWav").ToString
-
-            If File.Exists(filePath) Then
-                ' Code pour jouer le son, par exemple :
-                My.Computer.Audio.Play(filePath, AudioPlayMode.WaitToComplete)
-            Else
-                Throw New FileNotFoundException("Le fichier son est introuvable.", filePath)
-            End If
-        Catch ex As FileNotFoundException
-            MessageBox.Show("Erreur : " & ex.Message & vbCrLf & "Fichier : " & ex.FileName, "Fichier manquant", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        Catch ex As Exception
-            MessageBox.Show("Une erreur inattendue est survenue : " & ex.Message, "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-        End Try
-
+        My.Computer.Audio.Play(getRepertoireAppli() & "\" & My.Settings.Item("musiqueWav").ToString, _
+         AudioPlayMode.WaitToComplete)
     End Sub
 #End Region
 
@@ -124,7 +108,7 @@ Public Class Form1
                 btnAnnuler.Enabled = False
                 btnNouvelle.Enabled = True
                 'Sonne dans un autre thread !
-                PlaySoundFile()
+                'PlaySoundFile()
                 BackgroundWorker1.RunWorkerAsync()
             End If
         End If

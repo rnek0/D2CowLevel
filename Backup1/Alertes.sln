@@ -1,8 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
-MinimumVisualStudioVersion = 10.0.40219.1
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Basic Express 2008
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Alertes", "Alertes.vbproj", "{AB7440E8-2EF5-44C9-8AA8-58E19387BAC6}"
 EndProject
 Global
@@ -18,8 +16,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9374A745-F75B-4EA6-B5DC-F3DFDABFE970}
 	EndGlobalSection
 EndGlobal

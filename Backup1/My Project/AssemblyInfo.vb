@@ -11,8 +11,8 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("Alertes")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("Alertes")>
-<Assembly: AssemblyCopyright("Tony Simoes ©  2007")>
+<Assembly: AssemblyProduct("Alertes")> 
+<Assembly: AssemblyCopyright("Copyright ©  2007")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>

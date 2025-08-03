@@ -9,3 +9,15 @@ C:\_Developpement\VB\DEVS\Alertes\obj\Debug\ResolveAssemblyReference.cache
 C:\_Developpement\VB\DEVS\Alertes\obj\Debug\Alertes.Form1.resources
 C:\_Developpement\VB\DEVS\Alertes\obj\Debug\Alertes.Resources.resources
 C:\_Developpement\VB\DEVS\Alertes\obj\Debug\Alertes.vbproj.GenerateResource.Cache
+C:\codes\vb\D2CowLevel\bin\Debug\Alertes.exe.config
+C:\codes\vb\D2CowLevel\bin\Debug\Alertes.exe
+C:\codes\vb\D2CowLevel\bin\Debug\Alertes.pdb
+C:\codes\vb\D2CowLevel\bin\Debug\Alertes.xml
+C:\codes\vb\D2CowLevel\obj\Debug\Alertes.vbproj.AssemblyReference.cache
+C:\codes\vb\D2CowLevel\obj\Debug\Alertes.Form1.resources
+C:\codes\vb\D2CowLevel\obj\Debug\Alertes.Resources.resources
+C:\codes\vb\D2CowLevel\obj\Debug\Alertes.vbproj.GenerateResource.cache
+C:\codes\vb\D2CowLevel\obj\Debug\Alertes.vbproj.CoreCompileInputs.cache
+C:\codes\vb\D2CowLevel\obj\Debug\Alertes.exe
+C:\codes\vb\D2CowLevel\obj\Debug\Alertes.xml
+C:\codes\vb\D2CowLevel\obj\Debug\Alertes.pdb
