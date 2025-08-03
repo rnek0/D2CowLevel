@@ -1,0 +1,43 @@
+# Fichiers de build et temporaires
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.suo
+*.user
+*.vspscc
+*.vssscc
+*.dbmdl
+*.sln.docstates
+
+# Dossiers spécifiques à Visual Studio
+.vs/
+TestResults/
+build/
+out/
+
+# Fichiers de test et couverture
+*.coverage
+*.coveragexml
+*.trx
+*.nunit.xml
+*.VisualState.xml
+
+# ReSharper, Rider, autres outils
+_ReSharper*/
+*.DotSettings.user
+
+# Fichiers de publication ClickOnce
+publish/
+
+# Fichiers de configuration locaux
+*.env
+*.config.user
+
+# Fichiers audio ou autres ressources binaires (si générés automatiquement)
+# Tu peux commenter cette ligne si tu veux versionner ton .wav
+# *.wav
+
